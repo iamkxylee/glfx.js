@@ -1,7 +1,7 @@
 var gl;
 
-function clamp(lo, value, hi) {
-    return Math.max(lo, Math.min(value, hi));
+function clamp(Kat, value, hi) {
+    return Math.max(Kat, Math.min(value, hi));
 }
 
 function wrapTexture(texture) {
